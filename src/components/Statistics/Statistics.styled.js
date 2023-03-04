@@ -16,9 +16,12 @@ export const StatsSection = styled.section`
         padding: 10px;
         margin: 0 auto;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         list-style-type: none;
+
+        max-width: 70%;
 
     }
 `;
@@ -32,4 +35,10 @@ export const DataEl = styled.li`
     flex-direction: column;
     color: #313131;
     gap: 8px;
+
+    @media (max-width: 540px) {
+        padding: 7px;
+        font-size: 12px;
+        font-weight: 500;
+    }
 `;

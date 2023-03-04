@@ -37,7 +37,7 @@ export const Username = styled.p`
 `;
 
 export const UserData = styled.p`
-    color: 
+    color: gray;
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 10px;
@@ -54,6 +54,11 @@ export const Stats = styled.ul`
     padding: 0;
     border-radius: 8px;
     border-top: none;
+
+    @media (max-width: 540px) {
+        width: 60%;
+        margin-right: 25%;
+    }
 
     & > li {
         width: 33.3%;
@@ -73,6 +78,10 @@ export const Label = styled.span`
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 10px;
+
+    @media (max-width: 540px) {
+        font-size: 14px;
+    }
 `;
 
 export const Quantity = styled.span`
