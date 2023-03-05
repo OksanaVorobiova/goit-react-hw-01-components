@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { isOnlineSpanColor } from "components/utils/isOnlineSpanColor";
+import { isOnlineSpanColor } from "utils/isOnlineSpanColor";
 
 
 export const FriendListItemStyled = styled.li`
