@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const TBody = styled.tbody`
-    text-align: center;
+  text-align: center;
 
-    tr > td {
-        padding: 10px;
-        border: 1px solid gray;
-    }
+  tr > td {
+    padding: 10px;
+    border: 1px solid gray;
+  }
 `;

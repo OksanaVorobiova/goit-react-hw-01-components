@@ -1,3 +1,3 @@
 export const isOnlineSpanColor = ({ isOnline }) => {
-    return isOnline ? 'green' : 'red';
-}
+  return isOnline ? 'green' : 'red';
+};
